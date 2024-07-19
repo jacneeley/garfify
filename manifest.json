@@ -1,0 +1,24 @@
+{
+	"manifest_version":2,
+	"name": "garfify",
+	"version": "1.0",
+
+	"description": "Add Garf to your webpage.",
+
+	"icons": {
+		"48":"garfs/garf-48.jpg"
+	},
+
+	"permissions":["activeTab"],
+
+	"browser_action":{
+		"default_icon":"garfs/garf-48.jpg",
+		"default_title": "garfify",
+		"default_popup":"popup/choose_garf.html"
+	},
+	"web_accessible_resources":[
+		"garfs/garf0.jpg",
+		"garfs/garf1.jpg",
+		"garfs/garf2.jpg"
+	]
+}
